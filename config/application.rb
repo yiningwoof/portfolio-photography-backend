@@ -36,6 +36,6 @@ module WangPortfolioPhotography
   end
 end
 
-Aws.config.update({
-   credentials: Aws::Credentials.new(ENV["SECRET_KEY_ID"], ENV["SECRET_KEY"])
-})
+# Aws.config.update({
+#    credentials: Aws::Credentials.new(ENV["SECRET_KEY_ID"], ENV["SECRET_KEY"])
+# })
