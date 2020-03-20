@@ -4,7 +4,7 @@ Rails.application.routes.draw do
   # resources :categories
   # resources :photos
   # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
-  root :to => 'api/v1/photos#index'
+  root 'api/v1/photos#index'
 
   namespace :api do
     namespace :v1 do
