@@ -81,7 +81,7 @@ test:
 #   password: <%= ENV['WANG_PORTFOLIO_PHOTOGRAPHY_DATABASE_PASSWORD'] %>
 
 production:
-adapter: postgresql
-database: penguin_flipper_production_2_0
-prepared_statements: false
-advisory_locks: false
+  adapter: postgresql
+  database: wang_portfolio_photography_production
+  prepared_statements: false
+  advisory_locks: false

@@ -10,6 +10,7 @@ gem 'pg', '>= 0.18', '< 2.0'
 # Use Puma as the app server
 # gem 'active-storage'
 gem 'puma', '~> 4.1'
+gem 'rack-cors'
 
 gem 'aws-sdk-rails'
 gem "aws-sdk-s3", require: false
