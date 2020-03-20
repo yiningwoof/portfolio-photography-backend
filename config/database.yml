@@ -74,8 +74,14 @@ test:
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
+# production:
+#   <<: *default
+#   database: wang_portfolio_photography_production
+#   username: wang_portfolio_photography
+#   password: <%= ENV['WANG_PORTFOLIO_PHOTOGRAPHY_DATABASE_PASSWORD'] %>
+
 production:
-  <<: *default
-  database: wang_portfolio_photography_production
-  username: wang_portfolio_photography
-  password: <%= ENV['WANG_PORTFOLIO_PHOTOGRAPHY_DATABASE_PASSWORD'] %>
+adapter: postgresql
+database: penguin_flipper_production_2_0
+prepared_statements: false
+advisory_locks: false
