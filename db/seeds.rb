@@ -35,7 +35,7 @@ photos = [
     {filename: 'montserrat2.jpg', title: 'Chasing the Carribean Blue', location: 'Montserrat', year: 2017, categories: [home]},
     {filename: 'montserrat9.jpg', title: 'Into the setting Sun', location: 'Montserrat', year: 2017, categories: [home, lights]},
     {filename: 'natural_bridge4.jpg', title: 'Ostrich', location: 'San Antonio, TX, USA', year: 2018, categories: [home, animals]},
-    {filename: 'lousiana.jpg', title: 'Hello there', location: 'New Orleans, Louisiana, USA', year: 2019, categories: [home, animals]},
+    {filename: 'louisiana.jpg', title: 'Hello there', location: 'New Orleans, Louisiana, USA', year: 2019, categories: [home, animals]},
     {filename: 'seattle2.jpg', title: 'Fall colors', location: 'Seattle, WA, USA', year: 2018, categories: [home, plants]},
     {filename: 'seattle3.jpg', title: 'Northern trees', location: 'Seattle, WA, USA', year: 2018, categories: [home, plants, mountains]},
     {filename: 'seattle8.jpg', title: 'Skyline', location: 'Seattle, WA, USA', year: 2018, categories: [home, civilization]},
